@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AIAssistantCustomInstructionsStorage">
-    <option name="instructions">
-      <map>
-        <entry key="AIAssistant.General.ProjectPrompt">
-          <value>
-            <AIAssistantStoredInstruction>
-              <option name="actionId" value="AIAssistant.General.ProjectPrompt" />
-              <option name="content" value="Your role:&#10;- Frontend expert in WebDev&#10;- Focus on TypeScript&#10;&#10;Communication:&#10;- Write in direct, concise language&#10;- Reference official documentation&#10;- Structure responses as code blocks&#10;&#10;Code guidelines:&#10;- Use clean code conventions&#10;- Follow Google style guide&#10;- Optimize for production" />
-            </AIAssistantStoredInstruction>
-          </value>
-        </entry>
-        <entry key="AIAssistant.VCS.GenerateCommitMessage">
-          <value>
-            <AIAssistantStoredInstruction>
-              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
-              <option name="content" value="Avoid overly verbose descriptions or unnecessary details.&#10;Keep message as short as possible.&#10;Use Conventional Commit format.&#10;Take commit scope into account.&#10;Don't enclose the commit in graves." />
-            </AIAssistantStoredInstruction>
-          </value>
-        </entry>
-        <entry key="llm.testGeneration.js">
-          <value>
-            <AIAssistantStoredInstruction>
-              <option name="actionId" value="llm.testGeneration.js" />
-              <option name="content" value="Make sure the test tests one thing only.&#10;Add clear fail messages into the assertion calls." />
-            </AIAssistantStoredInstruction>
-          </value>
-        </entry>
-        <entry key="llm.testGeneration.vue">
-          <value>
-            <AIAssistantStoredInstruction>
-              <option name="actionId" value="llm.testGeneration.vue" />
-              <option name="content" value="Make sure the test tests one thing only.&#10;Add clear fail messages into the assertion calls." />
-            </AIAssistantStoredInstruction>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="BunSettings">
     <option name="bunPath" value="$APPLICATION_CONFIG_DIR$/node/versions/26.7.0/bin/bun" />
   </component>
@@ -48,10 +10,6 @@
   <component name="JunieProject">{}</component>
   <component name="MaliciousPackageCheckinHandlerState">
     <option name="packageCheck" value="true" />
-  </component>
-  <component name="McpProjectServerCommands">
-    <commands />
-    <urls />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -72,33 +30,13 @@
   <component name="ProjectResources">
     <xml-schema-version>XMLSchema_1_1</xml-schema-version>
   </component>
-  <component name="ShelveChangesManager">
-    <option name="remove_strategy" value="true" />
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
-  </component>
-  <component name="TailwindSettings">
-    <option name="lspConfiguration" value="{&#10;  &quot;inspectPort&quot;: null,&#10;  &quot;emmetCompletions&quot;: true,&#10;  &quot;classAttributes&quot;: [&quot;class&quot;, &quot;className&quot;, &quot;ngClass&quot;, &quot;class:list&quot;],&#10;  &quot;classFunctions&quot;: [&quot;tw&quot;, &quot;clsx&quot;],&#10;  &quot;codeActions&quot;: true,&#10;  &quot;codeLens&quot;: true,&#10;  &quot;hovers&quot;: true,&#10;  &quot;suggestions&quot;: true,&#10;  &quot;validate&quot;: true,&#10;  &quot;colorDecorators&quot;: true,&#10;  &quot;rootFontSize&quot;: 16,&#10;  &quot;lint&quot;: {&#10;    &quot;cssConflict&quot;: &quot;warning&quot;,&#10;    &quot;invalidApply&quot;: &quot;error&quot;,&#10;    &quot;invalidScreen&quot;: &quot;error&quot;,&#10;    &quot;invalidVariant&quot;: &quot;error&quot;,&#10;    &quot;invalidConfigPath&quot;: &quot;error&quot;,&#10;    &quot;invalidTailwindDirective&quot;: &quot;error&quot;,&#10;    &quot;invalidSourceDirective&quot;: &quot;error&quot;,&#10;    &quot;recommendedVariantOrder&quot;: &quot;warning&quot;,&#10;    &quot;usedBlocklistedClass&quot;: &quot;warning&quot;&#10;  },&#10;  &quot;showPixelEquivalents&quot;: true,&#10;  &quot;includeLanguages&quot;: {&#10;    &quot;ftl&quot;: &quot;html&quot;,&#10;    &quot;jinja&quot;: &quot;html&quot;,&#10;    &quot;jinja2&quot;: &quot;html&quot;,&#10;    &quot;smarty&quot;: &quot;html&quot;,&#10;    &quot;tmpl&quot;: &quot;gohtml&quot;,&#10;    &quot;cshtml&quot;: &quot;html&quot;,&#10;    &quot;vbhtml&quot;: &quot;html&quot;,&#10;    &quot;razor&quot;: &quot;html&quot;&#10;  },&#10;  &quot;files&quot;: {&#10;    &quot;exclude&quot;: [&#10;      &quot;**/.git/**&quot;,&#10;      &quot;**/.hg/**&quot;,&#10;      &quot;**/.svn/**&quot;,&#10;      &quot;**/node_modules/**&quot;,&#10;      &quot;**/.yarn/**&quot;,&#10;      &quot;**/.venv/**&quot;,&#10;      &quot;**/venv/**&quot;,&#10;      &quot;**/.next/**&quot;,&#10;      &quot;**/.parcel-cache/**&quot;,&#10;      &quot;**/.svelte-kit/**&quot;,&#10;      &quot;**/.turbo/**&quot;,&#10;      &quot;**/__pycache__/**&quot;&#10;    ]&#10;  },&#10;  &quot;experimental&quot;: {&#10;    &quot;configFile&quot;: null,&#10;    &quot;classRegex&quot;: []&#10;  }&#10;}" />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="9912000" />
   </component>
   <component name="TypeScriptCompiler">
     <option name="memoryLimit" value="4096" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT_PROFILE" value="Project Default" />
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="myTodoPanelSettings">
-      <TodoPanelSettings>
-        <todo-filter name="Notes" />
-      </TodoPanelSettings>
-    </option>
-    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <option name="MARK_IGNORED_AS_EXCLUDED" value="true" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>
